@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+run {
+    standardInput = System.in
+}
+
+repositories {
+}
+
+dependencies {
+    implementation files('libs/unit4.jar')
+}
+
+mainClassName = 'csproject.Main'
